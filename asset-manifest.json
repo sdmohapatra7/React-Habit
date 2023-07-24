@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Habit/static/css/main.c8531281.css",
+    "main.js": "/React-Habit/static/js/main.ac701848.js",
+    "index.html": "/React-Habit/index.html",
+    "main.c8531281.css.map": "/React-Habit/static/css/main.c8531281.css.map",
+    "main.ac701848.js.map": "/React-Habit/static/js/main.ac701848.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8531281.css",
+    "static/js/main.ac701848.js"
+  ]
+}
