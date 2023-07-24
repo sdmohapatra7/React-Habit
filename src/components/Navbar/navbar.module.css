@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 33%;
+  height: 100%;
+  background-color: #c8e2ff;
+  box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Ensure the aside div is positioned above other elements */
+}
+
+.main {
+  flex: 1;
+  background-color: #fff;
+  margin-left: 33%; /* Add margin to the main div to avoid overlap */
+}
+
+.title {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: auto;
+}
+
+.title h1 {
+  color: #563d64;
+  font-size: 55px;
+}
+
+.title p {
+  font-size: 18px;
+  color: #7388a6;
+  font-weight: 700;
+  padding: 10px 30px;
+}
+
+.addHabit {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: auto;
+  margin-bottom: 3rem;
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addForm input[type="text"] {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.add_btn {
+  background-color: #563d64;
+  width: 300px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add_btn:hover {
+  background-color: #754d7b;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  background-color: #c8d9f7;
+  box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #452a64;
+  height: 35px;
+  padding: 1px 16px;
+  margin: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 4px 4px -2px;
+  transition: box-shadow 0.4s ease;
+}
+
+.navbar a:focus {
+  background-color: #452a641c;
+}

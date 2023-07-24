@@ -1,0 +1,66 @@
+.container h2 {
+    margin-left: 40px;
+  }
+  
+  .habitList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Habit card */
+  .habitItem {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    background-color: #e2f9ff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Habit title */
+  .habitItem h3 {
+    font-size: 22px;
+    color: #563d64;
+    margin-bottom: 10px;
+  }
+  
+  /* Habit options */
+  .habitMenu {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  /* Option icons */
+  .habitMenu img {
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  /* Complete option icon */
+  .habitMenu img.complete {
+    filter: grayscale(100%) opacity(50%);
+  }
+  
+  /* Delete option icon */
+  .habitMenu img.delete {
+    filter: brightness(70%) saturate(0%);
+  }
+  
+  .no_hbt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 50px;
+    font-size: 24px;
+    color: #563d64;
+    background-color: #dce1f7;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
